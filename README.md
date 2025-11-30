@@ -1,0 +1,2 @@
+# Python_Learning_RyujiShinkawa
+Python勉強用のリポジトリです。
