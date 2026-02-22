@@ -16,5 +16,6 @@ def getWindow():
     # WIndowをループさせて、継続的にWindowを表示させる
     root.mainloop()
 
+# プログラムのトップレベル環境の名前
 if __name__ == "__main__":
     getWindow()
