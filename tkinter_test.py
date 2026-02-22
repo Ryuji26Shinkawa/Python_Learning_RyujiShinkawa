@@ -9,6 +9,10 @@ def getWindow():
     # Windowの作成
     root = tk.Tk()
     root.title("Tkinter Test")
+
+    # メインWindowに紐づくサブWindowを作成
+    tk.Toplevel()
+
     # WIndowをループさせて、継続的にWindowを表示させる
     root.mainloop()
 
