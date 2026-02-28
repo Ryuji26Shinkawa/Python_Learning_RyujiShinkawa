@@ -120,6 +120,8 @@ class CalculatorApp:
         for i in range(5):
             buttons_frame.rowconfigure(i, weight=1)
 
+    # 各ボタンの処理
+
     def _append_digit(self, value):
         if value == "0" and self.current_value == "0":
             return
